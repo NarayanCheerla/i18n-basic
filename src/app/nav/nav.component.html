@@ -1,0 +1,14 @@
+<nav class="container md-4 mt-4">
+    <div class="row">
+        <div class="col-9"></div>
+        <div class="col-3">
+            <select (change)="changeLang($event)">
+                <option value="en" [selected]="lang === 'en'">English</option>
+                <option value="de" [selected]="lang === 'de'">Deutsch</option>
+                <option value="ar" [selected]="lang === 'ar'">عربي</option>
+                <option value="fr" [selected]="lang === 'fr'">français</option>
+                <option value="te" [selected]="lang === 'te'">తెలుగు</option>
+            </select>
+        </div>
+    </div>
+</nav>
